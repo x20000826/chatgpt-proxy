@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: "/proxy/:slug*",
-        destination: "https://api.openai.com/:slug*",
+        destination: "https://api.chatanywhere.com.cn/:slug*",
       },
       {
         source: "/proxy-sse/:slug*",
